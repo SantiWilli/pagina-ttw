@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Startup Day · Tandil Tech Week 2026</title>
+  <meta name="description" content="Startup Day — 15 de octubre de 2026 en Distrito Avellaneda, Tandil. Charlas y networking entre fundadores, venture capital y estudiantes." />
+
+  <meta property="og:title" content="Startup Day · Tandil Tech Week 2026" />
+  <meta property="og:description" content="Vení a conocer a los que hacen. 15 de octubre · Distrito Avellaneda, Tandil." />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <a class="nav__brand" href="#top">
+      <span class="nav__mark">TTW</span>
+      <span class="nav__title">Tandil Tech Week <span class="nav__year">2026</span></span>
+    </a>
+    <nav class="nav__links">
+      <a href="#speakers">Speakers</a>
+      <a href="#ubicacion">Ubicación</a>
+      <a href="#organizan">Organizan</a>
+      <a href="#acompanan">Acompañan</a>
+      <a class="nav__cta" href="#inscribirme">Inscribirme</a>
+    </nav>
+    <button class="nav__toggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero__meta">
+        <span class="tag">15 Octubre</span>
+        <span class="dot">·</span>
+        <span class="tag">Track 02 · Startups</span>
+      </div>
+
+      <h1 class="hero__title">Startup Day</h1>
+
+      <p class="hero__subtitle">
+        Vení a conocer a los que hacen. Charlas dinámicas y networking entre
+        fundadores, venture capital y estudiantes.
+      </p>
+
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="#inscribirme">Inscribirme</a>
+        <a class="btn btn--ghost" href="#speakers">Ver speakers →</a>
+      </div>
+
+      <div class="hero__facts">
+        <div class="fact">
+          <span class="fact__label">Fecha</span>
+          <span class="fact__value">15 de octubre, 2026</span>
+        </div>
+        <div class="fact">
+          <span class="fact__label">Sede</span>
+          <span class="fact__value">Distrito Avellaneda · Tandil</span>
+        </div>
+        <div class="fact">
+          <span class="fact__label">Entrada</span>
+          <span class="fact__value">Gratuita, sujeta a aprobación</span>
+        </div>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>STARTUP DAY ✦ FOUNDERS &amp; BUILDERS ✦ VENTURE CAPITAL ✦ SOFTWARE &amp; AI ✦ POLO CIENTÍFICO ✦ NETWORKING ✦ DISTRITO AVELLANEDA ✦ STARTUP DAY ✦ FOUNDERS &amp; BUILDERS ✦ VENTURE CAPITAL ✦ SOFTWARE &amp; AI ✦ POLO CIENTÍFICO ✦ NETWORKING ✦ DISTRITO AVELLANEDA ✦</span>
+      </div>
+    </div>
+
+    <section class="section" id="speakers">
+      <div class="section__head">
+        <span class="section__kicker">Speakers</span>
+        <h2 class="section__title">Próximamente nuevas voces</h2>
+        <p class="section__lead">
+          Estamos curando una agenda de referentes que van a compartir
+          aprendizajes reales de producto, ciencia y capital.
+        </p>
+      </div>
+
+      <div class="speakers" id="speakers-grid"></div>
+    </section>
+
+    <section class="section" id="ubicacion">
+      <div class="section__head">
+        <span class="section__kicker">Sede</span>
+        <h2 class="section__title">Distrito Avellaneda</h2>
+        <p class="section__lead">
+          Av. Avellaneda 1140, B7000 Tandil, Buenos Aires, Argentina
+        </p>
+      </div>
+
+      <div class="location">
+        <div class="location__map">
+          <iframe
+            title="Mapa de Distrito Avellaneda, Tandil"
+            src="https://www.google.com/maps?q=Distrito%20Avellaneda%2C%20Av.%20Avellaneda%201140%2C%20Tandil&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="location__info">
+          <h3>Distrito Avellaneda</h3>
+          <p>Av. Avellaneda 1140,<br />B7000 Tandil, Buenos Aires, Argentina</p>
+          <a class="btn btn--ghost" href="https://www.google.com/maps/search/?api=1&amp;query=Distrito%20Avellaneda&amp;query_place_id=ChIJd4DI7SQfkZURHTIIjbDa3TE" target="_blank" rel="noopener">Ver en Google Maps →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="organizan">
+      <div class="section__head">
+        <span class="section__kicker">Impulsores del evento</span>
+        <h2 class="section__title">Organizan</h2>
+        <p class="section__lead">
+          Equipos y fondos que construyen infraestructura, capital, producto y
+          comunidad para el ecosistema tecnológico regional.
+        </p>
+      </div>
+
+      <div class="cards">
+        <a class="card" href="https://picante.fund" target="_blank" rel="noopener">
+          <span class="card__tag">VC Fund</span>
+          <h3 class="card__title">Picante</h3>
+          <span class="card__link">picante.fund ↗</span>
+          <p class="card__desc">Acompañan a la nueva generación de founders latinoamericanos: AI Natives construyendo productos globales. Confían cuando nadie más confía.</p>
+        </a>
+        <a class="card" href="https://relaw.io" target="_blank" rel="noopener">
+          <span class="card__tag">Venture Legal</span>
+          <h3 class="card__title">Relaw</h3>
+          <span class="card__link">relaw.io ↗</span>
+          <p class="card__desc">El partner legal de startups y empresas de tecnología. Expertise legal y visión de negocio, con acompañamiento 360° para crecer en múltiples mercados.</p>
+        </a>
+        <a class="card" href="https://paisanos.io" target="_blank" rel="noopener">
+          <span class="card__tag">Product Studio</span>
+          <h3 class="card__title">Paisanos</h3>
+          <span class="card__link">paisanos.io ↗</span>
+          <p class="card__desc">Estudio global de diseño y desarrollo de productos digitales, acompañando a startups y corporates a crear soluciones que escalan.</p>
+        </a>
+        <a class="card" href="https://hacktandil.org" target="_blank" rel="noopener">
+          <span class="card__tag">Community</span>
+          <h3 class="card__title">HackTandil</h3>
+          <span class="card__link">hacktandil.org ↗</span>
+          <p class="card__desc">Comunidad tecnológica de Tandil que conecta desarrolladores, estudiantes, emprendedores y entusiastas a través de meetups, hackathons y eventos.</p>
+        </a>
+        <a class="card" href="https://geonosisgroup.com" target="_blank" rel="noopener">
+          <span class="card__tag">Tech Partner</span>
+          <h3 class="card__title">Geonosis</h3>
+          <span class="card__link">geonosisgroup.com ↗</span>
+          <p class="card__desc">El brazo tecnológico de startups y empresas, que las acompaña desde la idea hasta el scale-up, alineando tecnología, producto y negocio.</p>
+        </a>
+        <a class="card" href="https://heyfardo.com" target="_blank" rel="noopener">
+          <span class="card__tag">Brand Intelligence</span>
+          <h3 class="card__title">Fardo</h3>
+          <span class="card__link">heyfardo.com ↗</span>
+          <p class="card__desc">La primera plataforma de brand intelligence de Latam. Miden cómo aparece tu marca en las IA y arman el plan para que te citen y recomienden.</p>
+        </a>
+      </div>
+    </section>
+
+    <section class="section" id="acompanan">
+      <div class="section__head">
+        <span class="section__kicker">Quienes apoyan el evento</span>
+        <h2 class="section__title">Acompañan</h2>
+        <p class="section__lead">Sponsors que hacen posible Tandil Tech Week.</p>
+      </div>
+
+      <div class="sponsors">
+        <a class="sponsor" href="https://gruporotonda.com.ar" target="_blank" rel="noopener">
+          <span class="sponsor__name">Grupo Rotonda</span>
+          <span class="sponsor__link">gruporotonda.com.ar ↗</span>
+        </a>
+        <a class="sponsor" href="https://theredguild.org" target="_blank" rel="noopener">
+          <span class="sponsor__name">The Red Guild</span>
+          <span class="sponsor__link">theredguild.org ↗</span>
+        </a>
+        <a class="sponsor" href="https://www.payoneer.com" target="_blank" rel="noopener">
+          <span class="sponsor__name">Payoneer</span>
+          <span class="sponsor__link">payoneer.com ↗</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="cta" id="inscribirme">
+      <span class="section__kicker">Inscripciones 2026</span>
+      <h2 class="cta__title">Construyamos juntos lo que viene.</h2>
+      <p class="cta__lead">
+        El 17 de septiembre a las 19:00 abren las inscripciones al Startup Day.
+        La inscripción es gratuita y sujeta a aprobación.
+      </p>
+      <div class="cta__actions">
+        <a class="btn btn--primary" href="https://luma.com/esg42kt8" target="_blank" rel="noopener">Abrir en Luma →</a>
+        <a class="btn btn--ghost" href="https://instagram.com/tandiltechweek" target="_blank" rel="noopener">Seguir @tandiltechweek</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__brand">
+      <span class="nav__mark">TTW</span>
+      <span>Tandil Tech Week</span>
+    </div>
+    <nav class="footer__social">
+      <a href="https://instagram.com/tandiltechweek" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://x.com/tandiltechweek" target="_blank" rel="noopener">X</a>
+    </nav>
+    <p class="footer__meta">14 &amp; 15 OCT. 2026 · Tandil, Argentina</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
